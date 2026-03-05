@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perodua EV Training Module 1</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Inter',sans-serif;}
+body { background:#f5f7fa; color:#1f2937; line-height:1.7; font-size:14px; }
+
+.navbar { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:white; border-bottom:1px solid #e5e7eb; position: sticky; top:0; z-index:999; }
+.navbar .brand { font-weight:700; color:#d71920; font-size:16px; letter-spacing:1px; }
+.language-switch{ display:flex; }
+.language-switch button{ padding:6px 14px; margin-left:8px; border:none; border-radius:20px; cursor:pointer; font-weight:600; color:#d71920; background:#fff; box-shadow:0 3px 10px rgba(0,0,0,0.05); transition:0.3s; }
+.language-switch button.active{ background:#d71920; color:white; box-shadow:0 4px 12px rgba(215,25,32,0.3); }
+
+.hero{ position:relative; background:url( "Screenshot 2026-02-23 at 4.22.39 PM copy 3.png") center/cover no-repeat; height:350px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; color:white; }
+.hero::after{ content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6)); }
+.hero-content{ position:relative; z-index:2; padding:0 20px; }
+.hero h1{ font-size:26px; font-weight:700; margin-bottom:10px; line-height:1.2; }
+.hero p{ font-size:16px; margin-bottom:15px; }
+.hero .btn-primary{ background:#d71920; color:white; padding:12px 20px; border-radius:25px; text-decoration:none; font-weight:700; transition:0.3s; }
+.hero .btn-primary:hover{ background:#b2161b; }
+
+.module-section{ padding:20px; }
+.module-card{ display:flex; flex-direction:column; margin-bottom:25px; background:white; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.06); overflow:hidden; transition:0.3s; }
+.module-card:hover{ transform:translateY(-4px);}
+.module-card img{ width:100%; height:auto; display:block; border-radius:15px; }
+.module-content{ padding:15px 15px; }
+.module-content h2{ color:#d71920; font-size:18px; font-weight:700; margin-bottom:8px; }
+.module-content p{ font-size:15px; text-align:justify; color:#1f2937; line-height:1.8; margin-bottom:12px; }
+.module-content p b{ color:#d71920; }
+
+.summary-section{ padding:20px; }
+.summary-container{ display:flex; flex-direction:column; gap:20px; }
+.summary-text, .summary-poster{ flex:1; }
+.summary-poster img{ width:100%; border-radius:15px; }
+
+footer{ background:white; padding:20px; text-align:center; font-size:13px; color:#4b5563; border-top:1px solid #e5e7eb; }
+
+@media(min-width:768px){
+    .hero h1{ font-size:34px; }
+    .hero p{ font-size:18px; }
+    .module-card{ flex-direction:row; }
+    .module-card:nth-child(even){ flex-direction:row-reverse; }
+    .module-card img{ width:50%; }
+    .module-content{ width:50%; padding:20px; }
+
+    .summary-container{ flex-direction:row; justify-content:space-between; align-items:center; }
+    .summary-text{ padding-right:20px; text-align:left; }
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="brand">PERODUA EV MODULE</div>
+    <div class="language-switch">
+        <button class="active" onclick="showEnglish()">EN</button>
+        <button onclick="showMalay()">BM</button>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Module 2:Identifying Electrified Vehicles with Accuracy </h1>
+        <p>Understanding the Foundation of Electric Mobility</p>
+        <a href="#modules" class="btn-primary">Start Learning</a>
+    </div>
+</section>
+
+<section class="module-section" id="modules">
+
+<!-- =================== ENGLISH =================== -->
+<div id="english">
+
+<!-- Card 1 -->
+
+
+<!-- Card 2 -->
+<div class="module-card">
+    <div class="module-content">
+        
+        <p> As the industry shifts further into electrified mobility, the ability to accurately recognise different types of electric vehicles is no longer optional—it is essential. For a Sales Advisor, correct identification shapes the quality of every customer interaction. Before explaining specifications, charging requirements, or performance characteristics, you must first be absolutely certain of the type of vehicle you are discussing. Misidentification does more than create confusion; it directly undermines credibility. Customers may not challenge the mistake, but they will remember the inconsistency. </p> 
+
+<p> Not all electrified vehicles operate the same way. A conventional Hybrid, a Plugin Hybrid (PHEV), and a Fully Electric Vehicle each function differently. They charge differently. They serve different customer needs. They come with different questions, expectations, and concerns. When assumptions replace verification, the risk of giving inaccurate advice increases significantly. In a market where confidence matters, accuracy becomes your most valuable tool. </p> 
+		
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="module-card">
+    <img src=    "Gemini_Generated_Image_ct7br0ct7br0ct7b.png" alt="EV Illustration 3">
+    <div class="module-content">
+        
+         <p> There are two structured methods of identifying an electrified vehicle: observing the exterior and examining the interior. Both methods require careful attention and discipline. A single indicator is rarely sufficient to confirm vehicle type. Correct identification relies on combining multiple signs to build a complete picture. </p>  
+
+    </div>
+</div>
+
+<!-- Card 4 -->
+<div class="module-card">
+    <img src=    "Gemini_Generated_Image_wwpq63wwpq63wwpq.png" alt="EV Illustration 4">
+    <div class="module-content">
+        <h2>Exterior</h2>
+        <p> The process begins with exterior observation. The most immediate visual cue is often the badge or emblem. Labels such as “Hybrid,” “SHybrid,” “ePower,” or “EV” can signify electrified technology, usually placed at the rear or side of the vehicle. While badges are useful, they should never be treated as the sole confirmation. Some owners remove badges. Some manufacturers change them between generations. A disciplined approach requires additional cues before drawing conclusions. </p> 
+
+<p> Brand recognition can support your assessment. Certain manufacturers, such as Tesla or BYD, are strongly associated with fully electric vehicles. While this increases the likelihood that the vehicle is electric, it should not replace verification. Many brands offer both petrol and electric variants, so the brand itself is only a guiding reference—not definitive proof. </p> 
+
+<p> Another strong exterior indicator is the presence of a charging port. If a vehicle has a charging inlet, it is either a Plugin Hybrid or a Fully Electric Vehicle. A conventional hybrid that cannot be plugged in will not have this feature. Although the presence of a charging port confirms plugin capability, it does not specify whether the vehicle is a PHEV or a full BEV. Interpretation remains necessary. </p> 
+
+<p> Frontgrille design may also offer clues. Fully electric vehicles generally require less airflow than petrol engines, leading to closed or minimal grille designs. However, modern styling trends can make this indicator less reliable. Some petrol cars now use clean, aerodynamic front fascias, while some electric vehicles adopt traditional grille aesthetics. Grille design should therefore be treated as supporting evidence rather than a definitive identifier. </p> 
+		
+    </div>
+</div>
+
+<!-- Card 5 --> 
+<div class="module-card">
+    <img src=   "Gemini_Generated_Image_870i3i870i3i870i.png" alt="EV Illustration 5">
+    <div class="module-content">
+        <h2>Interior</h2>
+          <p> In Malaysia, another helpful indicator comes from special number plates designated for electric vehicles. These plates can reinforce the conclusion that the vehicle is fully electric. Even so, the principle remains consistent: confirmation requires more than one clue. Overconfidence arising from a single observation is one of the most common mistakes. </p> 
+
+<p> Once exterior cues provide initial direction, interior inspection offers stronger validation. Inside the vehicle, the central display can reveal important information. Many EVs and PHEVs display battery levels, charging status, electric drive modes, or energyflow diagrams. These graphics often show how power moves between the battery, motor, and engine. Such information provides insight into the vehicle’s actual powertrain architecture and is far harder to misinterpret. </p> 
+
+<p>If access to the engine bay is possible, further clues become visible. Bright orange cables are a universal indicator of highvoltage systems. These cables, used across the industry for safety, immediately confirm that the vehicle contains hybrid or electric components. Highvoltage warning labels beneath the bonnet offer additional confirmation, signalling the presence of electrified hardware that requires specialized handling. </p> 
+
+<p> The instrument cluster also provides valuable information. Traditional combustion vehicles typically display an RPM gauge. Electric vehicles, however, often replace this with powerusage meters, regenerative indicators, or battery status displays. Words such as “EV Mode,” “Ready,” or “Charge” may appear instead of enginerelated terminology. These subtle differences, while sometimes overlooked, are decisive indicators of electrification. </p> 
+
+<p> Recognising an electric vehicle is not about memorising a checklist; it is about applying disciplined observation. Exterior cues help you form your initial impression. Interior indicators verify the truth of the system. When you identify the vehicle type accurately, you position yourself to provide precise explanations tailored to the customer’s needs. </p> 
+
+<p> Misidentification carries real consequences. If you mistakenly describe a Plugin Hybrid as a Fully Electric Vehicle and give incorrect charging advice, how quickly would customer trust decline? In sales, recognition always comes before recommendation. </p> 
+
+<p> Observation builds confidence. Confidence builds trust. And trust remains the foundation of effective sales advisory in an increasingly electrified automotive market.</p>  
+    </div>
+</div>
+
+
+<!-- SUMMARY SECTION -->
+<section class="summary-section">
+    <div class="summary-container">
+        
+            
+        <div class="summary-poster">
+            <img src= "new poster.PNG" alt="EV Poster">
+        </div>
+    </div>
+</section>
+
+</div> <!-- End English -->
+
+<!-- =================== BM =================== -->
+<div id="malay">
+
+<!-- Card 1 -->
+
+<div class="module-card">
+    <div class="module-content">
+       <p> Apabila industri semakin bergerak ke arah mobiliti elektrik, keupayaan untuk mengenal pasti jenis-jenis kenderaan elektrik dengan tepat bukan lagi pilihan, tetapi satu keperluan. Bagi seorang Sales Advisor, pengecaman yang betul akan mempengaruhi kualiti setiap interaksi dengan pelanggan. Sebelum menerangkan spesifikasi, keperluan pengecasan atau prestasi kenderaan, anda perlu benar-benar pasti jenis kenderaan yang sedang dibincangkan. Kesilapan mengenal pasti bukan sekadar menyebabkan kekeliruan, malah boleh menjejaskan kredibiliti. Pelanggan mungkin tidak menegur kesilapan itu, tetapi mereka akan ingat ketidakkonsistenan tersebut. </p> 
+		
+<p>Tidak semua kenderaan yang menggunakan teknologi elektrifikasi berfungsi dengan cara yang sama. Hybrid biasa, Plug-in Hybrid (PHEV), dan kenderaan elektrik sepenuhnya masing-masing beroperasi secara berbeza. Cara pengecasannya berbeza. Keperluan pelanggan yang memilihnya juga berbeza. Soalan, jangkaan dan kebimbangan pelanggan terhadap setiap jenis kenderaan juga tidak sama. Jika anda membuat andaian tanpa memastikan terlebih dahulu, risiko memberi penerangan yang tidak tepat akan meningkat dengan ketara. Dalam pasaran di mana keyakinan sangat penting, ketepatan maklumat menjadi aset paling bernilai.</p>
+		
+    </div>
+</div>
+
+<!-- Card 2 -->
+<div class="module-card">
+    <img src=    "Gemini_Generated_Image_ct7br0ct7br0ct7b.png" alt="EV Illustration 3">
+    <div class="module-content">
+        
+         <p> Terdapat dua kaedah utama untuk mengenal pasti jenis kenderaan elektrifikasi: melalui pemerhatian pada bahagian luaran dan pemeriksaan pada bahagian dalaman. Kedua-dua kaedah ini memerlukan perhatian yang teliti dan disiplin. Satu petunjuk sahaja biasanya tidak cukup untuk mengesahkan jenis kenderaan. Pengecaman yang tepat bergantung kepada gabungan beberapa tanda supaya gambaran yang diperoleh benar-benar jelas dan menyeluruh. </p>  
+
+    </div>
+</div>
+
+<!-- Card 3 -->
+<div class="module-card">
+    <img src=    "Gemini_Generated_Image_wwpq63wwpq63wwpq.png" alt="EV Illustration 4">
+    <div class="module-content">
+        <h2>Luaran Exterior</h2>
+        <p> Proses mengenal pasti biasanya bermula dengan pemerhatian pada bahagian luaran kenderaan. Petunjuk visual yang paling mudah dilihat selalunya ialah lencana atau emblem pada kereta. Label seperti “Hybrid”, “SHybrid”, “ePower”, atau “EV” biasanya menunjukkan bahawa kenderaan tersebut menggunakan teknologi elektrifikasi. Lencana ini kebiasaannya terletak di bahagian belakang atau sisi kenderaan. Walaupun ia membantu, ia tidak boleh dijadikan satu-satunya bukti. Ada pemilik yang menanggalkan lencana, dan ada juga pengeluar yang menukar reka bentuk atau penamaan antara generasi model. Oleh itu, pemerhatian tambahan masih diperlukan sebelum membuat kesimpulan </p> 
+<p> Pengenalan jenama juga boleh membantu dalam membuat anggaran awal. Sesetengah pengeluar seperti Tesla atau BYD memang terkenal dengan kenderaan elektrik. Namun ini hanya memberi petunjuk awal, bukan pengesahan sepenuhnya. Banyak jenama hari ini menawarkan kedua-dua versi petrol dan elektrik, jadi jenama hanya boleh dijadikan rujukan sokongan.
+</p>
+<p> Satu lagi petunjuk luaran yang kuat ialah kewujudan port pengecasan. Jika sebuah kenderaan mempunyai port pengecasan, ia biasanya sama ada Plug-in Hybrid (PHEV) atau kenderaan elektrik sepenuhnya (BEV). Hybrid biasa yang tidak boleh dicas melalui plug tidak akan mempunyai ciri ini. Walaupun port pengecasan menunjukkan bahawa kenderaan tersebut boleh dicas, ia masih tidak dapat menentukan sama ada ia PHEV atau BEV. Tafsiran lanjut masih diperlukan. </p> 
+
+<p> Reka bentuk gril hadapan juga kadangkala boleh memberi petunjuk. Kenderaan elektrik sepenuhnya biasanya memerlukan aliran udara yang lebih sedikit berbanding enjin petrol, jadi banyak model EV menggunakan gril yang tertutup atau sangat minimal. Namun, trend reka bentuk moden menjadikan petunjuk ini kurang konsisten. Sesetengah kereta petrol kini mempunyai reka bentuk hadapan yang lebih bersih dan aerodinamik, manakala ada EV yang masih mengekalkan rupa gril tradisional. Oleh itu, reka bentuk gril lebih sesuai dijadikan petunjuk sokongan, bukan penentu utama.
+ </p> 
+
+
+		
+    </div>
+</div>
+
+<!-- Card 5 --> 
+<div class="module-card">
+    <img src=   "Gemini_Generated_Image_870i3i870i3i870i.png" alt="EV Illustration 5">
+    <div class="module-content">
+        <h2> Dalaman Interior</h2>
+          <p> Di Malaysia, satu lagi petunjuk yang boleh membantu ialah nombor plat khas yang diperkenalkan untuk kenderaan elektrik. Plat ini boleh menguatkan kesimpulan bahawa kenderaan tersebut adalah EV sepenuhnya. Namun prinsipnya tetap sama: pengesahan tidak boleh bergantung kepada satu petunjuk sahaja. Terlalu yakin berdasarkan satu pemerhatian adalah antara kesilapan yang paling kerap berlaku.</p> 
+		<p> Selepas pemerhatian luaran memberi gambaran awal, pemeriksaan di bahagian dalaman boleh memberikan pengesahan yang lebih kuat. Di dalam kenderaan, paparan pada skrin tengah selalunya menunjukkan maklumat penting. Banyak EV dan PHEV memaparkan tahap bateri, status pengecasan, mod pemanduan elektrik atau rajah aliran tenaga. Paparan ini biasanya menunjukkan bagaimana tenaga bergerak antara bateri, motor elektrik dan enjin. Maklumat seperti ini memberi gambaran yang lebih jelas tentang sistem kuasa sebenar kenderaan dan jauh lebih sukar untuk disalah tafsir.</p>
+
+<p>Jika ada peluang untuk melihat ruang enjin, beberapa petunjuk tambahan juga boleh dikenal pasti. Kabel berwarna oren terang merupakan tanda universal bagi sistem voltan tinggi. Kabel ini digunakan secara meluas dalam industri automotif untuk tujuan keselamatan, dan kehadirannya menunjukkan bahawa kenderaan tersebut mempunyai komponen elektrik atau hibrid. Label amaran voltan tinggi di bawah bonet juga menjadi petunjuk tambahan bahawa kenderaan itu dilengkapi dengan sistem elektrifikasi yang memerlukan pengendalian khas. </p> 
+
+<p>Paparan meter pada papan instrumen juga memberi maklumat penting. Kenderaan enjin pembakaran biasa biasanya mempunyai meter RPM. Dalam kenderaan elektrik pula, meter ini selalunya digantikan dengan paparan penggunaan kuasa, indikator brek regeneratif, atau status bateri. Perkataan seperti “EV Mode”, “Ready”, atau “Charge” mungkin muncul menggantikan istilah yang berkaitan dengan enjin. Perbezaan kecil seperti ini kadang-kadang terlepas pandang, tetapi sebenarnya menjadi petunjuk jelas bahawa kenderaan tersebut menggunakan sistem elektrifikasi. </p> 
+
+<p> Mengenal pasti kenderaan elektrik bukan sekadar menghafal senarai tanda, tetapi memerlukan pemerhatian yang teliti dan teratur. Petunjuk luaran membantu membentuk andaian awal, manakala petunjuk dalaman mengesahkan sistem sebenar kenderaan. Apabila jenis kenderaan dikenal pasti dengan tepat, anda boleh memberikan penerangan yang lebih tepat dan sesuai dengan keperluan pelanggan. </p> 
+
+<p> Kesilapan mengenal pasti jenis kenderaan boleh memberi kesan yang besar. Jika Plug-in Hybrid tersilap diterangkan sebagai EV sepenuhnya dan maklumat pengecasan yang salah diberikan, kepercayaan pelanggan boleh hilang dengan cepat. Dalam dunia jualan, pengenalpastian sentiasa datang sebelum cadangan. </p> 
+
+<p> Pemerhatian yang baik membina keyakinan. Keyakinan membina kepercayaan. Dan kepercayaan adalah asas kepada peranan Sales Advisor dalam pasaran automotif yang semakin menuju ke arah elektrifikasi.</p> 
+
+    </div>
+</div>
+
+
+<!-- SUMMARY SECTION -->
+<section class="summary-section">
+    <div class="summary-container">
+        
+            
+        <div class="summary-poster">
+            <img src= "new poster.PNG" alt="EV Poster">
+        </div>
+    </div>
+</section>
+
+</div> <!-- End English -->
+
+</section>
+
+<footer>
+© 2026 Perodua EV Training Module
+</footer>
+
+<script>
+const eng = document.getElementById("english");
+const mal = document.getElementById("malay");
+const buttons = document.querySelectorAll(".language-switch button");
+
+function showEnglish(){
+    eng.style.display="block";
+    mal.style.display="none";
+    buttons[0].classList.add("active");
+    buttons[1].classList.remove("active");
+}
+
+function showMalay(){
+    eng.style.display="none";
+    mal.style.display="block";
+    buttons[1].classList.add("active");
+    buttons[0].classList.remove("active");
+}
+
+// Default show English
+showEnglish();
+</script>
+
+</body>
+</html>
